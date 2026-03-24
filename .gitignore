@@ -1,0 +1,10 @@
+# Fichiers de données IRM
+*.nii
+*.nii.gz
+*.mat
+*.trk
+
+# Fichiers système Mac
+.DS_Store
+**/.DS_Store
+
