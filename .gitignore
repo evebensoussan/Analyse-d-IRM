@@ -1,10 +1,31 @@
-# Fichiers de données IRM
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Données de neuro-imagerie (volumineuses / usage pédagogique)
+data/
 *.nii
 *.nii.gz
-*.mat
+*.mgz
+*.dcm
+*.vff
 *.trk
+*.tck
+*.mat
+*.feat/
+*.gfeat/
 
-# Fichiers système Mac
-.DS_Store
-**/.DS_Store
-
+# Sorties temporaires
+results*/
+output/
+*.log
